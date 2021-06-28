@@ -33,7 +33,7 @@ function filterJobs(jobs, searchText){
             }
         })
 
-        return filterJobs;
+        return filteredJobs;
 
     } else {
         return jobs;
